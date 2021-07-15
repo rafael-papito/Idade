@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: black;
+}
+html,body{
+	height: 100%;
+}
+.clear{
+	clear: both;
+}
+.center{
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 1280px;
+}
+body{
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt arial;
+}
+header{
+    text-align: center;
+    color: #fff;
+}
+section{
+    width: 500px;
+    height: auto;
+    text-align: center;
+    margin:20px auto;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.comeco p{
+    margin-top: 30px;
+    font-size: 24px;
+}
+input[type=number]{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid rgb(70, 142, 236);
+    margin-top: 10px;
+    text-align: center;
+}
+input[type=button]{
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid #fff;
+    background-color: rgb(70, 142, 236);
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: #fff;
+}
+
